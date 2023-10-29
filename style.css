@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+  
+  
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,56,152,1) 50%, rgba(5,103,183,1) 69%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    height: 570px;
+    width: 340px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+background-color: rgb(7, 4, 3);
+}
+
+#card{
+    height: 550px;
+    width: 320px;
+    background-color: #fff;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+#storyian {
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 1px solid black;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+.story{
+    background-color: blue;
+    height:90px ;
+    width: 90px;
+    border-radius: 50%;
+    /* border: 2px solid red ; */
+    background: linear-gradient(rgb(254, 254, 11), orange,rgb(254, 138, 157),purple, blue);
+    overflow: hidden;
+    display: inline-block;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.story img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+}
+
+#storyian::-webkit-scrollbar{
+display:none;
+}
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    display: none;
+}
+
